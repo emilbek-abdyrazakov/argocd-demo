@@ -17,6 +17,6 @@ ingress:
         - path: /
           pathType: ImplementationSpecific
   tls: []
-   - secretName: artemis-tls
-     hosts:
-       - artemis-qa.cleanwatergo.com
+    - secretName: artemis-tls
+      hosts:
+        - artemis-qa.cleanwatergo.com
