@@ -6,7 +6,7 @@ service:
 
 ingress:
   enabled: true
-  className: ""
+  className: "nginx"
   annotations: 
     ingress.kubernetes.io/ssl-redirect: "false"
     cert-manager.io/cluster-issuer: letsencrypt-prod-dns01
